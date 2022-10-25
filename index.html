@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+    /*Nav bar styling*/
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .heading{
+        padding: 1.5rem;
+    }
+    .navbar{
+        overflow-x: hidden;
+        display: flex;
+        justify-content: space-between;
+        background: rgb(242, 77, 46);
+        border-bottom: 1.5px solid black;
+    }
+    .navbar .auth{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 1.5rem;
+        padding-top: 1.3rem;
+    }
+    .navbar .auth h3{
+        padding-right: 1.5rem;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    /*Center res content styling*/
+
+    .publish{
+        background: rgb(242, 77, 46);
+        min-height: 600px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .divider{
+        border-left: 1.5px solid black;
+        height: 650px;
+        margin-left: -265px;
+    }
+    .publish .small p{
+        margin-top: 60px;
+        margin-left: 2rem;
+        margin-bottom: 0px;
+        font-family: 'Soehne web dreiviertelfett', sans-serif;
+        color: #fff;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.35rem;
+        text-transform: uppercase;
+    }
+    .publish .small h2{
+        font-size: 7.3vw;
+        font-weight: 300;
+        letter-spacing: -0.35vw;
+        margin-left: 2rem;
+        font-family: 'Gt super text book', Georgia, sans-serif;
+        width: 680px;
+        line-height: 100%;
+        margin-top: 10px;
+    }
+    .publish .small h5{
+        margin-left: 2rem;
+        font-size: 18px;
+        font-family: 'Source Sans Pro', sans-serif;
+        width: 478px;
+        line-height: 127%;
+        font-weight: bolder;
+        padding-top: 45px;
+    }
+    .writing{
+        margin-left: 31px;
+    }
+    .writing .inner-writing{
+        background: white;
+        width: 172px;
+        padding-left: 29px;
+        border-radius: 2rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: bold;
+        letter-spacing: -0.2px;
+        cursor: pointer;
+        font-size: 22px;
+        margin-top: 40px;
+    }
+    .writing .inner-writing:hover{
+        background: rgb(242, 77, 46);
+        border: 1.5px solid white;
+        color: black;
+    }
+
+    /*Network section content styling*/
+    .network{
+        background: black;
+        color: white;
+        min-height: 580px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .network .text h1{
+        font-size: 6vw;
+        margin-left: 2rem;
+        width: 516px;
+        margin-top: 28px;
+    }
+    .network .profiles .combi{
+        display: flex;
+        justify-content: space-between;
+    }
+    .network .profiles .combi .names{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 15px;
+    }
+
+</style>
+<body>
+    <div class="navbar">
+        <div class="heading">
+            <img src="Picture.svg" alt="">
+        </div>
+
+        <div class="auth">
+            <h3 style="padding-top: 5px; font-weight: bold;">Sign in</h3>
+            <h3 style="color: white; padding-left: 24px; background: black; height: 34px; border-radius: 2rem; width: 140px; padding-top: 5px;">Start writing</h3>
+        </div>
+    </div>
+
+    <div class="publish">
+        <div class="small">
+            <p>Start a blog for free</p>
+            <h2>Publish, grow, and earn, all in one place.</h2>
+            <h5>If you have a story to tell, knowledge to share, or a perspective to offer — welcome home. Sign up for free so your writing can thrive in a network supported by millions of readers — not ads.</h5>
+            <div class="writing">
+                <div class="inner-writing">Start writing</div>
+            </div>
+        </div>
+
+        <div class="divider">
+
+        </div>
+
+        <div class="animated-design">
+            
+        </div>
+    </div>
+
+    <div class="network">
+        <div class="text">
+            <h1>Join a network
+                of curious
+                minds.</h1>
+        </div>
+
+        <div class="profiles">
+            <hr style="width: 657px; margin-top: 28px; margin-bottom: 12px;">
+            <div class="combi">
+                <img style="width: 9%;" src="Obama.png" alt="">
+                <div class="names">
+                    <h2 style="margin-left: -570px;">Barack Obama</h2>
+                    <h4 style="font-size: 15px;line-height: 30px;margin-left: -570px;">DAD, HUSBAND, PRESIDENT, CITIZEN</h4>
+                </div>
+            </div>
+            <hr style="width: 657px; margin-top: 12px; margin-bottom: 12px;">
+            <div class="combi">
+                <img style="width: 9%;" src="Chabon.png" alt="">
+                <div class="names">
+                    <h2 style="margin-left: -570px;">Michael Chabon</h2>
+                    <h4 style="font-size: 15px;line-height: 30px;margin-left: -570px;">NOVELIST, SCREENWRITER, AND COLUMNIST</h4>
+                </div>
+            </div>
+            <hr style="width: 657px; margin-top: 12px; margin-bottom: 12px;">
+            <div class="combi">
+                <img style="width: 9%;" src="camile.png" alt="">
+                <div class="names">
+                    <h2 style="margin-left: -570px;">Camille Fournier</h2>
+                    <h4 style="font-size: 15px;line-height: 30px;margin-left: -570px;">ENGINEER, CTO, AND AUTHOR</h4>
+                </div>
+            </div>
+            <hr style="width: 657px; margin-top: 12px; margin-bottom: 12px;">
+            <div class="combi">
+                <img style="width: 9%;" src="CarvellWallace_1CarvellWallace.png" alt="">
+                <div class="names">
+                    <h2 style="margin-left: -570px;">Carvell Wallence</h2>
+                    <h4 style="font-size: 15px;line-height: 30px;margin-left: -570px;">NEW YORK TIMES BESTSELLING AUTHOR AND PODCASTER</h4>
+                </div>
+            </div>
+            <hr style="width: 657px; margin-top: 12px; margin-bottom: 12px;">
+            <div class="combi">
+                <img style="width: 9%;" src="Price.png" alt="">
+                <div class="names">
+                    <h2 style="margin-left: -570px;">Devon Price</h2>
+                    <h4 style="font-size: 15px;line-height: 30px;margin-left: -570px;">SOCIAL PSYCHOLOGIST AND AUTHOR</h4>
+                </div>
+            </div>
+            <hr style="width: 657px; margin-top: 12px; margin-bottom: 12px;">
+            <div class="combi">
+                <img style="width: 9%;" src="Orlean.png" alt="">
+                <div class="names">
+                    <h2 style="margin-left: -570px;">Susan Orlean</h2>
+                    <h4 style="font-size: 15px;line-height: 30px;margin-left: -570px;">WRITER FOR THE NEW YORKER, AUTHOR</h4>
+                </div>
+            </div>
+            <hr style="width: 657px; margin-top: 12px; margin-bottom: 12px;">
+        </div>
+    </div>
+</body>
+</html>
