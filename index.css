@@ -1,0 +1,384 @@
+/*Nav bar styling*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    padding: 1.5rem;
+}
+.navbar{
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(242, 77, 46);
+    border-bottom: 1.5px solid black;
+}
+.navbar .auth{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1.5rem;
+    padding-top: 1.3rem;
+}
+.navbar .auth h3{
+    padding-right: 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/*Center res content styling*/
+
+.publish{
+    background: rgb(242, 77, 46);
+    min-height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.divider{
+    border-left: 1.5px solid black;
+    height: 650px;
+    margin-left: -265px;
+}
+.publish .small p{
+    margin-top: 60px;
+    margin-left: 2rem;
+    margin-bottom: 0px;
+    font-family: 'Soehne web dreiviertelfett', sans-serif;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.35rem;
+    text-transform: uppercase;
+}
+.publish .small h2{
+    font-size: 7.3vw;
+    font-weight: 300;
+    letter-spacing: -0.35vw;
+    margin-left: 2rem;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    width: 680px;
+    line-height: 100%;
+    margin-top: 10px;
+}
+.publish .small h5{
+    margin-left: 2rem;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 478px;
+    line-height: 127%;
+    font-weight: bolder;
+    padding-top: 45px;
+}
+.writing{
+    margin-left: 31px;
+}
+.writing .inner-writing{
+    background: white;
+    width: 172px;
+    padding-left: 29px;
+    border-radius: 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.2px;
+    cursor: pointer;
+    font-size: 22px;
+    margin-top: 40px;
+}
+.writing .inner-writing:hover{
+    background: rgb(242, 77, 46);
+    border: 1.5px solid white;
+    color: black;
+}
+
+/*Network section content styling*/
+.network{
+    background: black;
+    color: white;
+    min-height: 580px;
+    display: flex;
+    justify-content: space-between;
+}
+.network .text h1{
+    font-size: 6vw;
+    margin-left: 2rem;
+    width: 516px;
+    margin-top: 28px;
+}
+.network .profiles .combi{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.network .profiles .combi .names{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+}
+
+/*Space section content styling*/
+
+.space{
+    background: #ffd1b9;
+    min-height: 650px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+.space .normal-text h1{
+    font-size: 6vw;
+    width: 380px;
+    margin-left: 2rem;
+    margin-top: 40px;
+    margin-bottom: 232px;
+}
+
+.space .normal-text h3{
+    width: 380px;
+    font-size: 18px;
+    margin-left: 2rem;
+    line-height: 127%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.start-writing{
+    margin-left: 31px;
+}
+.start-writing .normal{
+    background: #000000;
+    width: 172px;
+    color: white;
+    padding-left: 29px;
+    border-radius: 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.2px;
+    cursor: pointer;
+    font-size: 22px;
+    margin-top: 40px;
+}
+.space .photo img{
+    margin-top: 84px;
+}
+
+.content{
+    background: #ffd1b9;
+    display: flex;
+    justify-content: space-between;
+    min-height: 230px;
+    border-bottom: 1px solid black;
+}
+
+.content .blog{
+    margin-left: 2rem;
+    margin-top: 30px;
+}
+
+.content .blog h3{
+    font-size: 18px;
+    width: 430px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 30px;
+}
+
+
+.content .publication{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 406px;
+}
+.content .publication h1{
+    margin-top: 30px;
+}
+.content .publication .seperator{
+    border-left: 1.5px solid black;
+    height: 230px;
+    margin-right: 2rem;
+}
+
+.audience{
+    text-align: center;
+    padding-top: 66px;
+    padding-bottom: 66px;
+}
+
+.audience h2{
+    font-size: 6vw;
+    width: 700px;
+    margin-bottom: 20px;
+    margin-left: 335px;
+}
+
+.audience-insight{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+}
+.audience-insight .section1{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.audience-insight .section1 h1{
+    margin-bottom: 70px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.audience-insight .section1 p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    width: 403px;
+    letter-spacing: 2px;
+}
+.audience-insight .partition{
+    border-left: 1.5px solid black;
+    height: 476px;
+}
+.audience-insight .section2 .connecitvity{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black
+}
+.audience-insight .section2 .connecitvity .social{
+    border-right: 1px solid #000;
+}
+.audience-insight .section2 .connecitvity .social, .powerfull{
+    padding: 30px;
+}
+
+.audience-insight .section2 .connecitvity .social h1{
+    font-size: 2.7vw;
+}
+.audience-insight .section2 .connecitvity .powerfull h1{
+    font-size: 2.7vw;
+}
+.audience-insight .section2 .connecitvity .social p{
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.audience-insight .section2 .connecitvity .powerfull p{
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.audience-insight .section2 .third-section{
+    display: flex;
+    justify-content: space-between;
+}
+.audience-insight .section2 .third-section .email, .insights{
+    border-right: 1px solid #000;
+}
+.audience-insight .section2 .third-section .email, .insights, .design{
+    padding: 30px;
+}
+
+.learn-more{
+    border-top: 1px solid #000;
+    background-image: url(https://cdn-static-1.medium.com/sites/medium.com/creators/images/cubes.png);
+    background-position: 100% 50%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    opacity: 1;
+    background-color: #34a245;
+    min-height: 450px;
+}
+.learn-more h1{
+    font-size: 6vw;
+    width: 600px;
+    margin-left: 2rem;
+    color: white;
+    margin-top: 54px;
+}
+.learn-more p{
+    width: 40%;
+    margin-left: 2rem;
+    color: white;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    margin-top: 17px;
+    margin-bottom: 84px;
+}
+.learn-more .more{
+    background: black;
+    padding: 10px;
+    width: 127px;
+    padding-left: 10;
+    padding-left: 23px;
+    border-radius: 2rem;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 2rem;
+    color: white;
+}
+.learn-more .more:hover{
+    background: #052209;
+}
+
+.last-section{
+    background: black;
+    min-height: 950px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.last-section .context, h1{
+    margin-left: 3rem;
+}
+.last-section h1{   
+    font-size: 3.2vw;
+    padding-top: 67px;
+    margin-bottom: 90px;
+}
+.last-section .context{
+    padding-top: 15px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    cursor: pointer;
+}
+.last-section .end-content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.last-section .end-content h2{
+    margin-left: 377px;
+    cursor: pointer;
+}
+.last-section .end-content .guide{
+    margin-right: 400px;
+    padding-bottom: 0px;
+    background: white;
+    color: black;
+    padding: 4px;
+    border-radius: 2rem;
+    cursor: pointer;
+    width: 194px;
+}
+.last-section .end-content .guide:hover{
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+.last-section .end-content .guide h3{
+    margin-left: 21px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.footer h1{
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    margin-right: 566px;
+}
