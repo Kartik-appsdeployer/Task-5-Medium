@@ -101,7 +101,7 @@
 .network .text h1{
     font-size: 6vw;
     margin-left: 2rem;
-    width: 516px;
+    width: 427px;
     padding-top: 28px;
 }
 .network .profiles .combi{
@@ -395,9 +395,12 @@
         width: 460px;
         min-height: 200px;
     }
+    .publish .small{
+        width: 460px;
+    }
     .publish .small h2{
         font-size: 4vw;
-        width: 450px;
+        width: 427px;
     }
     .publish .small p{
         font-size: 10px;
@@ -534,5 +537,12 @@
     }
     .audience-insight .section1 img{
         width: 286px;
+    }
+    .network .profiles .combi .names h2, h4{
+        width: 567px;
+        padding-left: 184px;
+    }
+    .network .profiles .combi{
+        width: 460px;
     }
 }
